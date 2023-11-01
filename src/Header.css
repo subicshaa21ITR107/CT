@@ -1,0 +1,167 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+.banner-img{
+
+background-image: url("https://www.bgawe.info/wp-content/uploads/2021/08/jobs21.jpg");
+
+
+background-color: gray;
+height: 700px; 
+background-size: cover;
+background-repeat: no-repeat;
+-webkit-clip-path: polygon(100% 0, 100% 90%, 0 95%, 0 0);
+clip-path: polygon(100% 0, 100% 90%, 0 95%, 0 0);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+#Header {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    color: #000;
+    padding: 1.1rem;
+    position: sticky;
+  }
+  
+  #Header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  #Header ul li a {
+    color: gray;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    color: #0000;
+    font-weight: bold;
+    background: linear-gradient(90deg,#6B5DF2 50%,#000 0)  var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: 1s;
+  }
+  #Header ul li a:hover {
+    --_p: 0%;
+  }
+  .logo >span{
+    color: #f7cc53;
+  }
+  @media (max-width: 640px) {
+    #Header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #Header .logo {
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+  
+    #Header ul {
+      padding: 0.5rem;
+    }
+    #Header ul li a {
+      padding: 0.5rem;
+      margin-right: 20px;
+    }
+    
+  }
+   */
+
+
+   body {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    
+    color: black;
+    padding: 1rem;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  nav li {
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  .banner-img{
+
+    background-image: url("https://www.bgawe.info/wp-content/uploads/2021/08/jobs21.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(100% 0, 100% 90%, 0 95%, 0 0);
+    clip-path: polygon(100% 0, 100% 90%, 0 95%, 0 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    padding: 2rem;
+  }
+  
+  img {
+    width: 1400px;
+    height: 1000px;
+  }
+  
+  nav {
+    background-color: lightcyan;
+    height: 90px;
+    color: hotpink;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: salmon;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    background-color: burlywood;
+  } 
+  #Header ul li a:hover {
+    --_p: 0%;
+  }
+  .logo >span{
+    color: #f7cc53;
+  }
+  @media (max-width: 640px) {
+    #Header {
+      flex-direction: column;
+      align-items: center;
+    }
+    #Header .logo {
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+  
+  }
